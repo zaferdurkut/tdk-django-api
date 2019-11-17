@@ -1,4 +1,4 @@
-# tdk api
+# TDK Django Api
 Bu projede Django Rest ile [TDK](https://sozluk.gov.tr/) API'si kullanılarak kelime için anlam ve atasözlerini döndüren bir web servisi çalışması yapılmıştır. Proje ile girilen kelime için anlam ve atasözlerine json formatında ulaşabilirsiniz.
 
  Projede;
