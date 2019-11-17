@@ -1,0 +1,46 @@
+{
+	"info": {
+		"_postman_id": "8a1b0d9b-211c-45c4-ba56-c871ca8b0429",
+		"name": "TDK Api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Word",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"word\" : \"toz\",\n\t\"anlam\" : \"True\",\n\t\"atasozu\" :\"True\"\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{host}}/get_word",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"get_word"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
