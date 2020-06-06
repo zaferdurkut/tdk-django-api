@@ -1,5 +1,5 @@
 python-dotenv==0.10.1
-Django==2.2.7
+Django==2.2.13
 djangorestframework==3.10.3
 ipython==7.9.0
 django-jet==1.0.8
